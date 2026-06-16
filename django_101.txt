@@ -1,0 +1,16 @@
+django-admin startproject project_name directory_name       [project creating]
+
+python3 manage.py startapp hello_world			    [creating an App]
+
+
+Important files in our project folder:
+
+settings.py: this file contains the project-wide settings, such as installed apps and database connection information, among other things.
+manage.py: this file is in the root directory, above the project folder. It is used to create apps, run our project and perform some database operations.
+
+
+Important files in our apps folder:
+
+models.py: our database models are stored here, which define the structure of the database used by our app.
+views.py: this file contains the view code for our app. You’ve already created some view code to display a text response to the user.
+
